@@ -1,0 +1,18 @@
+Project Name: policytest
+Repo name: policytest
+Project Category: integration and testing
+Lifecycle State: Incubation
+Primary Contact: Keith Burns
+Project Lead: Keith Burns
+Jira Project Name: PolicyTest
+Jira Project Prefix: [POLICYTEST]
+mailing list tag [policytest]
+Committers:
+Keith Burns (krb@cisco.com)
+Bryan Sullivan (bs3131@att.com)
+Brady Allen Johnson (brady.allen.johnson@ericsson.com)
+Peter Bandzi (pbandzi@cisco.com)
+Reinaldo Penno (rapenno@gmail.com)
+
+Link to TSC approval: http://ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-08-25-14.00.html
+Link to approval of additional submitters: TBD
