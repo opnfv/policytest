@@ -1,0 +1,59 @@
+---
+project: 'policytest'
+project_creation_date: ''
+project_category: 'integration and testing'
+lifecycle_state: 'Incubation'
+project_lead: &opnfv_policytest_ptl
+    name: 'Keith Burns'
+    email: 'alagalah@gmail.com'
+    id: 'alagalah'
+    company: 'gmail.com'
+    timezone: 'Unknown'
+primary_contact: *opnfv_policytest_ptl
+issue_tracking:
+    type: 'jira'
+    url: 'https://jira.opnfv.org/projects/[POLICYTEST]'
+    key: '[POLICYTEST]'
+mailing_list:
+    type: 'mailman2'
+    url: 'opnfv-tech-discuss@lists.opnfv.org'
+    tag: '[policytest]'
+realtime_discussion:
+    type: irc
+    server: 'freenode.net'
+    channel: '#opnfv-policytest'
+meetings:
+    - type: 'gotomeeting+irc'
+      agenda:  # eg: 'https://wiki.opnfv.org/display/'
+      url:  # eg: 'https://global.gotomeeting.com/join/819733085'
+      server: 'freenode.net'
+      channel: '#opnfv-meeting'
+      repeats: 'weekly'
+      time:  # eg: '16:00 UTC'
+repositories:
+    - 'policytest'
+committers:
+    - <<: *opnfv_policytest_ptl
+    - name: 'Brady Johnson'
+      email: 'brady.allen.johnson@ericsson.com'
+      company: 'ericsson.com'
+      id: 'ebrjohn'
+    - name: 'Bryan Sullivan'
+      email: 'bryan.sullivan@att.com'
+      company: 'att.com'
+      id: 'blsaws'
+    - name: 'Peter Bandzi'
+      email: 'pbandzi@cisco.com'
+      company: 'cisco.com'
+      id: 'pbandzi'
+    - name: 'Reinaldo Penno'
+      email: 'rapenno@gmail.com'
+      company: 'gmail.com'
+      id: 'repenno'
+tsc:
+    # yamllint disable rule:line-length
+    approval: 'http//ircbot.wl.linuxfoundation.org/meetings/opnfv-meeting/2015/opnfv-meeting.2015-08-25-14.00.html'
+    # yamllint enable rule:line-length
+    changes:
+        - type: 'promotion'
+          link: 'TBD'
